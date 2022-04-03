@@ -27,8 +27,8 @@
     "eslint": ">=7.12.1"
   },
   "dependencies": {
-    "@condorhero/eslint-config-react": "workspace:^0.0.1",
-    "@condorhero/eslint-config-vue": "workspace:^0.0.1"
+    "@condorhero/eslint-config-react": "workspace:^",
+    "@condorhero/eslint-config-vue": "workspace:^"
   },
   "devDependencies": {
     "eslint": "^8.12.0"

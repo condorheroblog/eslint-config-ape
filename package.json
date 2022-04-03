@@ -33,7 +33,7 @@
     "packages/typescript"
   ],
   "devDependencies": {
-    "@condorhero/eslint-config": "workspace:^0.0.1",
+    "@condorhero/eslint-config": "workspace:^",
     "bumpp": "^7.1.1"
   }
 }

@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@condorhero/eslint-config': workspace:^0.0.1
+      '@condorhero/eslint-config': workspace:^
       bumpp: ^7.1.1
     devDependencies:
       '@condorhero/eslint-config': link:packages/all
@@ -12,8 +12,8 @@ importers:
 
   packages/all:
     specifiers:
-      '@condorhero/eslint-config-react': workspace:^0.0.1
-      '@condorhero/eslint-config-vue': workspace:^0.0.1
+      '@condorhero/eslint-config-react': workspace:^
+      '@condorhero/eslint-config-vue': workspace:^
       eslint: ^8.12.0
     dependencies:
       '@condorhero/eslint-config-react': link:../react
@@ -56,7 +56,7 @@ importers:
 
   packages/react:
     specifiers:
-      '@condorhero/eslint-config-typescript': workspace:^0.0.1
+      '@condorhero/eslint-config-typescript': workspace:^
       eslint: ^8.12.0
       eslint-plugin-jsx-a11y: ^6.5.1
       eslint-plugin-react: ^7.29.4
@@ -71,7 +71,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@condorhero/eslint-config-basic': workspace:^0.0.1
+      '@condorhero/eslint-config-basic': workspace:^
       '@typescript-eslint/eslint-plugin': ^5.17.0
       '@typescript-eslint/parser': ^5.17.0
       eslint: ^8.12.0
@@ -86,7 +86,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@condorhero/eslint-config-typescript': workspace:^0.0.1
+      '@condorhero/eslint-config-typescript': workspace:^
       eslint: ^8.12.0
       eslint-plugin-vue: ^8.5.0
     dependencies:
