@@ -16,7 +16,9 @@
     "url": "git+https://github.com/condorheroblog/eslint-config-ape.git"
   },
   "scripts": {
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "lint:fix": "eslint . --fix",
+    "lint": "eslint ."
   },
   "bugs": {
     "url": "https://github.com/condorheroblog/eslint-config-ape/issues"
@@ -29,7 +31,7 @@
     "packages/all",
     "packages/typescript"
   ],
-  "dependencies": {
+  "devDependencies": {
     "@condorhero/eslint-config": "workspace:^0.0.1"
   }
 }

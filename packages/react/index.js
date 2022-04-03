@@ -4,7 +4,7 @@ module.exports = {
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
-    "@condorhero/eslint-config-typescript"
+    "@condorhero/eslint-config-typescript",
   ],
   settings: {
     react: {
@@ -12,4 +12,3 @@ module.exports = {
     },
   },
 };
-  
