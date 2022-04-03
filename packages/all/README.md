@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://github.com/condorheroblog/eslint-config-ape">
-      <img src="./ape.svg" alt="APE LOGO">
+      <img src="../../ape.svg" alt="APE LOGO">
     </a>
     <br />
     My ESLint config presets
