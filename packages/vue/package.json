@@ -1,0 +1,25 @@
+{
+  "name": "@condorhero/eslint-config-vue",
+  "version": "0.0.1",
+  "description": "My Eslint config presets for Vue",
+  "keywords": [
+    "eslint",
+    "eslint-preset",
+    "eslint-config-vue-preset"
+  ],
+  "license": "MIT",
+  "author": "CondorHero",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/condorheroblog/eslint-config-ape.git",
+    "directory": "packages/vue"
+  },
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/condorheroblog/eslint-config-ape/issues"
+  },
+  "homepage": "https://github.com/condorheroblog/eslint-config-ape#readme"
+}
