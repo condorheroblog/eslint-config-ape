@@ -1,0 +1,38 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers:
+      '@condorhero/eslint-config': workspace:^0.0.1
+    dependencies:
+      '@condorhero/eslint-config': link:packages/all
+
+  packages/all:
+    specifiers:
+      '@condorhero/eslint-config-react': workspace:^0.0.1
+      '@condorhero/eslint-config-vue': workspace:^0.0.1
+    dependencies:
+      '@condorhero/eslint-config-react': link:../react
+      '@condorhero/eslint-config-vue': link:../vue
+
+  packages/basic:
+    specifiers: {}
+
+  packages/react:
+    specifiers:
+      '@condorhero/eslint-config-typescript': workspace:^0.0.1
+    dependencies:
+      '@condorhero/eslint-config-typescript': link:../typescript
+
+  packages/typescript:
+    specifiers:
+      '@condorhero/eslint-config-basic': workspace:^0.0.1
+    dependencies:
+      '@condorhero/eslint-config-basic': link:../basic
+
+  packages/vue:
+    specifiers:
+      '@condorhero/eslint-config-typescript': workspace:^0.0.1
+    dependencies:
+      '@condorhero/eslint-config-typescript': link:../typescript
