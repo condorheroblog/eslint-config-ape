@@ -2,6 +2,7 @@
   "name": "@condorhero/monorepo",
   "version": "0.0.1",
   "private": true,
+  "packageManager": "pnpm@6.32.4",
   "description": "My Eslint config presets",
   "keywords": [
     "eslint",

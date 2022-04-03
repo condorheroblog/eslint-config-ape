@@ -18,8 +18,33 @@
   "files": [
     "*.js"
   ],
+  "scripts": {
+    "lint": "eslint . --config=index.js",
+    "lint:fix": "eslint . --fix --config=index.js"
+  },
   "bugs": {
     "url": "https://github.com/condorheroblog/eslint-config-ape/issues"
   },
-  "homepage": "https://github.com/condorheroblog/eslint-config-ape#readme"
+  "homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
+  "peerDependencies": {
+    "eslint": ">=7.12.1"
+  },
+  "dependencies": {
+    "eslint-config-standard": "17.0.0-1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsonc": "^2.2.1",
+    "eslint-plugin-markdown": "^2.2.1",
+    "eslint-plugin-n": "^15.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-unicorn": "^41.0.1",
+    "eslint-plugin-yml": "^0.14.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^0.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
 }
