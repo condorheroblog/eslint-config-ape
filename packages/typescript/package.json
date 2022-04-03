@@ -1,6 +1,6 @@
 {
   "name": "@condorhero/eslint-config-typescript",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "My Eslint config presets for TypeScript",
   "keywords": [
     "eslint",
