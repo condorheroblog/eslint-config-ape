@@ -1,6 +1,6 @@
 {
   "name": "@condorhero/eslint-config",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "My eslint config presets",
   "keywords": [
     "eslint",
