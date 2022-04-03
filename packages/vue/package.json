@@ -1,6 +1,6 @@
 {
   "name": "@condorhero/eslint-config-vue",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "My Eslint config presets for Vue",
   "keywords": [
     "eslint",
