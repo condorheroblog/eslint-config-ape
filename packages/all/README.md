@@ -49,7 +49,7 @@ For example `.eslintrc` file:
 
 ```json
 {
-  "extends": "@condorhero"
+	"extends": "@condorhero"
 }
 ```
 
@@ -70,7 +70,7 @@ eslint `.eslintrc` file:
 
 ```json
 {
-  "extends": "@condorhero/eslint-config-vue"
+	"extends": "@condorhero/eslint-config-vue"
 }
 ```
 ### React
@@ -88,7 +88,7 @@ eslint `.eslintrc` file:
 
 ```json
 {
-  "extends": "@condorhero/eslint-config-react"
+	"extends": "@condorhero/eslint-config-react"
 }
 ```
 
@@ -107,7 +107,7 @@ eslint `.eslintrc` file:
 
 ```json
 {
-  "extends": "@condorhero/eslint-config-typescript"
+	"extends": "@condorhero/eslint-config-typescript"
 }
 ```
 
@@ -117,9 +117,9 @@ For example:
 
 ```json
 {
-  "scripts": {
-    "lint": "eslint ."
-  }
+	"scripts": {
+		"lint": "eslint ."
+	}
 }
 ```
 
@@ -129,10 +129,10 @@ Create `.vscode/settings.json`
 
 ```json
 {
-  "prettier.enable": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+	"prettier.enable": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	}
 }
 ```
 ## License

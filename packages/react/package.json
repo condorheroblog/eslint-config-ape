@@ -1,41 +1,41 @@
 {
-  "name": "@condorhero/eslint-config-react",
-  "version": "0.1.5",
-  "description": "My Eslint config presets for React",
-  "keywords": [
-    "eslint",
-    "eslint-preset",
-    "eslint-config-react-preset"
-  ],
-  "license": "MIT",
-  "author": "CondorHero",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/condorheroblog/eslint-config-ape.git",
-    "directory": "packages/react"
-  },
-  "main": "index.js",
-  "files": [
-    "*.js"
-  ],
-  "bugs": {
-    "url": "https://github.com/condorheroblog/eslint-config-ape/issues"
-  },
-  "homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
-  "peerDependencies": {
-    "eslint": ">=7.12.1"
-  },
-  "dependencies": {
-    "@condorhero/eslint-config-typescript": "workspace:^",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-react": "^7.31.8",
-    "eslint-plugin-react-hooks": "^4.6.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.25.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  }
+	"name": "@condorhero/eslint-config-react",
+	"version": "0.1.5",
+	"description": "My Eslint config presets for React",
+	"keywords": [
+		"eslint",
+		"eslint-preset",
+		"eslint-config-react-preset"
+	],
+	"license": "MIT",
+	"author": "CondorHero",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/condorheroblog/eslint-config-ape.git",
+		"directory": "packages/react"
+	},
+	"main": "index.js",
+	"files": [
+		"*.js"
+	],
+	"bugs": {
+		"url": "https://github.com/condorheroblog/eslint-config-ape/issues"
+	},
+	"homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
+	"peerDependencies": {
+		"eslint": ">=7.12.1"
+	},
+	"dependencies": {
+		"@condorhero/eslint-config-typescript": "workspace:^",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-react": "^7.31.8",
+		"eslint-plugin-react-hooks": "^4.6.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.25.0"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org"
+	}
 }

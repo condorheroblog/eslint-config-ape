@@ -1,39 +1,39 @@
 {
-  "name": "@condorhero/monorepo",
-  "version": "0.1.5",
-  "private": true,
-  "packageManager": "pnpm@6.32.4",
-  "description": "My Eslint config presets",
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "eslint-config-preset"
-  ],
-  "license": "MIT",
-  "author": "CondorHero",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/condorheroblog/eslint-config-ape.git"
-  },
-  "scripts": {
-    "release": "bumpp package.json packages/*/package.json && pnpm -r publish",
-    "preinstall": "npx only-allow pnpm",
-    "lint:fix": "eslint . --fix",
-    "lint": "eslint ."
-  },
-  "bugs": {
-    "url": "https://github.com/condorheroblog/eslint-config-ape/issues"
-  },
-  "homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
-  "workspaces": [
-    "packages/vue",
-    "packages/react",
-    "packages/basic",
-    "packages/all",
-    "packages/typescript"
-  ],
-  "devDependencies": {
-    "@condorhero/eslint-config": "workspace:^",
-    "bumpp": "^8.2.1"
-  }
+	"name": "@condorhero/monorepo",
+	"version": "0.1.5",
+	"private": true,
+	"packageManager": "pnpm@6.32.4",
+	"description": "My Eslint config presets",
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"eslint-config-preset"
+	],
+	"license": "MIT",
+	"author": "CondorHero",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/condorheroblog/eslint-config-ape.git"
+	},
+	"scripts": {
+		"release": "bumpp package.json packages/*/package.json && pnpm -r publish",
+		"preinstall": "npx only-allow pnpm",
+		"lint:fix": "eslint . --fix",
+		"lint": "eslint ."
+	},
+	"bugs": {
+		"url": "https://github.com/condorheroblog/eslint-config-ape/issues"
+	},
+	"homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
+	"workspaces": [
+		"packages/vue",
+		"packages/react",
+		"packages/basic",
+		"packages/all",
+		"packages/typescript"
+	],
+	"devDependencies": {
+		"@condorhero/eslint-config": "workspace:^",
+		"bumpp": "^8.2.1"
+	}
 }

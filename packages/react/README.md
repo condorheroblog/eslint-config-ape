@@ -49,7 +49,7 @@ For example `.eslintrc` file:
 
 ```json
 {
-  "extends": "@condorhero/eslint-config-react"
+	"extends": "@condorhero/eslint-config-react"
 }
 ```
 
@@ -61,9 +61,9 @@ For example:
 
 ```json
 {
-  "scripts": {
-    "lint": "eslint ."
-  }
+	"scripts": {
+		"lint": "eslint ."
+	}
 }
 ```
 
@@ -73,10 +73,10 @@ Create `.vscode/settings.json`
 
 ```json
 {
-  "prettier.enable": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+	"prettier.enable": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	}
 }
 ```
 

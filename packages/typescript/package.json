@@ -1,41 +1,41 @@
 {
-  "name": "@condorhero/eslint-config-typescript",
-  "version": "0.1.5",
-  "description": "My Eslint config presets for TypeScript",
-  "keywords": [
-    "eslint",
-    "eslint-preset",
-    "eslint-config-typescript-preset"
-  ],
-  "license": "MIT",
-  "author": "CondorHero",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/condorheroblog/eslint-config-ape.git",
-    "directory": "packages/typescript"
-  },
-  "main": "index.js",
-  "files": [
-    "*.js"
-  ],
-  "bugs": {
-    "url": "https://github.com/condorheroblog/eslint-config-ape/issues"
-  },
-  "homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
-  "peerDependencies": {
-    "eslint": ">=7.12.1"
-  },
-  "dependencies": {
-    "@condorhero/eslint-config-basic": "workspace:^",
-    "@typescript-eslint/eslint-plugin": "^5.39.0",
-    "@typescript-eslint/parser": "^5.39.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.25.0",
-    "typescript": "^4.8.4"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  }
+	"name": "@condorhero/eslint-config-typescript",
+	"version": "0.1.5",
+	"description": "My Eslint config presets for TypeScript",
+	"keywords": [
+		"eslint",
+		"eslint-preset",
+		"eslint-config-typescript-preset"
+	],
+	"license": "MIT",
+	"author": "CondorHero",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/condorheroblog/eslint-config-ape.git",
+		"directory": "packages/typescript"
+	},
+	"main": "index.js",
+	"files": [
+		"*.js"
+	],
+	"bugs": {
+		"url": "https://github.com/condorheroblog/eslint-config-ape/issues"
+	},
+	"homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
+	"peerDependencies": {
+		"eslint": ">=7.12.1"
+	},
+	"dependencies": {
+		"@condorhero/eslint-config-basic": "workspace:^",
+		"@typescript-eslint/eslint-plugin": "^5.39.0",
+		"@typescript-eslint/parser": "^5.39.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.25.0",
+		"typescript": "^4.8.4"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org"
+	}
 }

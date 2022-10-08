@@ -1,40 +1,40 @@
 {
-  "name": "@condorhero/eslint-config",
-  "version": "0.1.5",
-  "description": "My eslint config presets",
-  "keywords": [
-    "eslint",
-    "eslint-preset",
-    "eslint-config-vue-preset",
-    "eslint-config-react-preset"
-  ],
-  "license": "MIT",
-  "author": "CondorHero",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/condorheroblog/eslint-config-ape.git",
-    "directory": "packages/all"
-  },
-  "main": "index.js",
-  "files": [
-    "*.js"
-  ],
-  "bugs": {
-    "url": "https://github.com/condorheroblog/eslint-config-ape/issues"
-  },
-  "homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
-  "peerDependencies": {
-    "eslint": ">=7.12.1"
-  },
-  "dependencies": {
-    "@condorhero/eslint-config-react": "workspace:^",
-    "@condorhero/eslint-config-vue": "workspace:^"
-  },
-  "devDependencies": {
-    "eslint": "^8.25.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  }
+	"name": "@condorhero/eslint-config",
+	"version": "0.1.5",
+	"description": "My eslint config presets",
+	"keywords": [
+		"eslint",
+		"eslint-preset",
+		"eslint-config-vue-preset",
+		"eslint-config-react-preset"
+	],
+	"license": "MIT",
+	"author": "CondorHero",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/condorheroblog/eslint-config-ape.git",
+		"directory": "packages/all"
+	},
+	"main": "index.js",
+	"files": [
+		"*.js"
+	],
+	"bugs": {
+		"url": "https://github.com/condorheroblog/eslint-config-ape/issues"
+	},
+	"homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
+	"peerDependencies": {
+		"eslint": ">=7.12.1"
+	},
+	"dependencies": {
+		"@condorhero/eslint-config-react": "workspace:^",
+		"@condorhero/eslint-config-vue": "workspace:^"
+	},
+	"devDependencies": {
+		"eslint": "^8.25.0"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org"
+	}
 }
