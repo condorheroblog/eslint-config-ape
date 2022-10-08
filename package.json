@@ -4,27 +4,27 @@
 	"private": true,
 	"packageManager": "pnpm@6.32.4",
 	"description": "My Eslint config presets",
+	"author": "CondorHero",
+	"license": "MIT",
+	"homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/condorheroblog/eslint-config-ape.git"
+	},
+	"bugs": {
+		"url": "https://github.com/condorheroblog/eslint-config-ape/issues"
+	},
 	"keywords": [
 		"eslint",
 		"eslint-config",
 		"eslint-config-preset"
 	],
-	"license": "MIT",
-	"author": "CondorHero",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/condorheroblog/eslint-config-ape.git"
-	},
 	"scripts": {
 		"release": "bumpp package.json packages/*/package.json && pnpm -r publish",
 		"preinstall": "npx only-allow pnpm",
 		"lint:fix": "eslint . --fix",
 		"lint": "eslint ."
 	},
-	"bugs": {
-		"url": "https://github.com/condorheroblog/eslint-config-ape/issues"
-	},
-	"homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
 	"workspaces": [
 		"packages/vue",
 		"packages/react",

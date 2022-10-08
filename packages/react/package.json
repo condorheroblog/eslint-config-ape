@@ -2,26 +2,26 @@
 	"name": "@condorhero/eslint-config-react",
 	"version": "0.1.5",
 	"description": "My Eslint config presets for React",
-	"keywords": [
-		"eslint",
-		"eslint-preset",
-		"eslint-config-react-preset"
-	],
-	"license": "MIT",
 	"author": "CondorHero",
+	"license": "MIT",
+	"homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/condorheroblog/eslint-config-ape.git",
 		"directory": "packages/react"
 	},
+	"bugs": {
+		"url": "https://github.com/condorheroblog/eslint-config-ape/issues"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-preset",
+		"eslint-config-react-preset"
+	],
 	"main": "index.js",
 	"files": [
 		"*.js"
 	],
-	"bugs": {
-		"url": "https://github.com/condorheroblog/eslint-config-ape/issues"
-	},
-	"homepage": "https://github.com/condorheroblog/eslint-config-ape#readme",
 	"peerDependencies": {
 		"eslint": ">=7.12.1"
 	},
