@@ -202,7 +202,14 @@ module.exports = {
 			allowAllPropertiesOnSameLine: false,
 		}],
 		"no-return-await": "off",
-		"space-before-function-paren": ["error", "never"],
+		"space-before-function-paren": [
+			"error",
+			{
+				anonymous: "always",
+				named: "never",
+				asyncArrow: "always",
+			},
+		],
 
 		// es6
 		"no-var": "error",
