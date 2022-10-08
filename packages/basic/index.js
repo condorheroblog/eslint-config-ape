@@ -166,7 +166,10 @@ module.exports = {
 		"brace-style": ["error", "stroustrup", { allowSingleLine: true }],
 		"block-spacing": ["error", "always"],
 		"camelcase": "off",
-		"comma-spacing": ["error", { before: false, after: true }],
+		"comma-spacing": ["error", {
+			before: false,
+			after: true,
+		}],
 		"comma-style": ["error", "last"],
 		"comma-dangle": ["error", "always-multiline"],
 		"no-constant-condition": "warn",
@@ -174,9 +177,16 @@ module.exports = {
 		"no-console": ["error", { allow: ["warn", "error"] }],
 		"no-cond-assign": ["error", "always"],
 		"func-call-spacing": ["off", "never"],
-		"key-spacing": ["error", { beforeColon: false, afterColon: true }],
+		"key-spacing": ["error", {
+			beforeColon: false,
+			afterColon: true,
+		}],
 		"no-tabs": "off",
-		"indent": ["error", "tab", { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
+		"indent": ["error", "tab", {
+			SwitchCase: 1,
+			VariableDeclarator: 1,
+			outerIIFEBody: 1,
+		}],
 		"no-restricted-syntax": [
 			"error",
 			"DebuggerStatement",
@@ -184,6 +194,11 @@ module.exports = {
 			"WithStatement",
 		],
 		"object-curly-spacing": ["error", "always"],
+		// enforce "same line" or "multiple line" on object properties.
+		// https://eslint.org/docs/rules/object-property-newline
+		"object-property-newline": ["error", {
+			allowAllPropertiesOnSameLine: false,
+		}],
 		"no-return-await": "off",
 		"space-before-function-paren": ["error", "never"],
 
@@ -273,7 +288,11 @@ module.exports = {
 		// Use new when throwing error
 		"unicorn/throw-new-error": "error",
 
-		"no-use-before-define": ["error", { functions: false, classes: false, variables: true }],
+		"no-use-before-define": ["error", {
+			functions: false,
+			classes: false,
+			variables: true,
+		}],
 		"eslint-comments/disable-enable-pair": "off",
 		"import/no-named-as-default-member": "off",
 		"n/no-callback-literal": "off",
@@ -290,7 +309,10 @@ module.exports = {
 		],
 
 		// yml
-		"yml/quotes": ["error", { prefer: "single", avoidEscape: false }],
+		"yml/quotes": ["error", {
+			prefer: "single",
+			avoidEscape: false,
+		}],
 		"yml/no-empty-document": "off",
 	},
 };
