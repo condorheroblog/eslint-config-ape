@@ -122,11 +122,11 @@ module.exports = {
 		"@typescript-eslint/object-curly-spacing": ["error", "always"],
 
 		// off
-		"@typescript-eslint/camelcase": "off",
+		"@typescript-eslint/naming-convention": "off",
 		"@typescript-eslint/explicit-function-return-type": "off",
 		"@typescript-eslint/explicit-member-accessibility": "off",
 		"@typescript-eslint/no-explicit-any": "off",
-		"@typescript-eslint/no-parameter-properties": "off",
+		"@typescript-eslint/parameter-properties": "off",
 		"@typescript-eslint/no-empty-interface": "off",
 		"@typescript-eslint/ban-ts-ignore": "off",
 		"@typescript-eslint/no-empty-function": "off",
