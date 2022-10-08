@@ -16,7 +16,7 @@
     "url": "git+https://github.com/condorheroblog/eslint-config-ape.git"
   },
   "scripts": {
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish",
+    "release": "bumpp package.json packages/*/package.json && pnpm -r publish",
     "preinstall": "npx only-allow pnpm",
     "lint:fix": "eslint . --fix",
     "lint": "eslint ."
@@ -34,6 +34,6 @@
   ],
   "devDependencies": {
     "@condorhero/eslint-config": "workspace:^",
-    "bumpp": "^7.1.1"
+    "bumpp": "^8.2.1"
   }
 }
