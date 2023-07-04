@@ -30,22 +30,22 @@
 		"eslint": ">=7.12.1"
 	},
 	"dependencies": {
-		"eslint-config-standard": "17.0.0",
+		"eslint-config-standard": "17.1.0",
 		"eslint-plugin-eslint-comments": "^3.2.0",
 		"eslint-plugin-html": "^7.1.0",
-		"eslint-plugin-import": "^2.26.0",
-		"eslint-plugin-jsonc": "^2.4.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-jsonc": "^2.9.0",
 		"eslint-plugin-markdown": "^3.0.0",
-		"eslint-plugin-n": "^15.3.0",
-		"eslint-plugin-promise": "^6.0.1",
-		"eslint-plugin-sonarjs": "^0.15.0",
-		"eslint-plugin-unicorn": "^44.0.2",
-		"eslint-plugin-yml": "^1.2.0",
-		"jsonc-eslint-parser": "^2.1.0",
-		"yaml-eslint-parser": "^1.1.0"
+		"eslint-plugin-n": "^16.0.1",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-sonarjs": "^0.19.0",
+		"eslint-plugin-unicorn": "^47.0.0",
+		"eslint-plugin-yml": "^1.8.0",
+		"jsonc-eslint-parser": "^2.3.0",
+		"yaml-eslint-parser": "^1.2.2"
 	},
 	"devDependencies": {
-		"eslint": "^8.25.0"
+		"eslint": "^8.44.0"
 	},
 	"publishConfig": {
 		"access": "public",

@@ -2,7 +2,7 @@
 	"name": "@condorhero/monorepo",
 	"version": "0.2.0",
 	"private": true,
-	"packageManager": "pnpm@6.32.4",
+	"packageManager": "pnpm@8.6.6",
 	"description": "My Eslint config presets",
 	"author": "CondorHero",
 	"license": "MIT",
@@ -20,7 +20,7 @@
 		"eslint-config-preset"
 	],
 	"scripts": {
-		"release": "bumpp package.json packages/*/package.json && pnpm -r publish",
+		"release": "bumpp -r && pnpm -r publish",
 		"preinstall": "npx only-allow pnpm",
 		"postinstall": "simple-git-hooks",
 		"lint:fix": "eslint . --fix",
@@ -35,9 +35,9 @@
 	],
 	"devDependencies": {
 		"@condorhero/eslint-config": "workspace:^",
-		"bumpp": "^8.2.1",
-		"lint-staged": "^13.0.3",
-		"simple-git-hooks": "^2.8.0"
+		"bumpp": "^9.1.1",
+		"lint-staged": "^13.2.3",
+		"simple-git-hooks": "^2.8.1"
 	},
 	"simple-git-hooks": {
 		"pre-commit": "npx lint-staged"
